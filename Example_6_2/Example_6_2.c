@@ -4,7 +4,7 @@
 int main ()
 {
 //Assign variables A,B and R which will be the output
-int A,B,R;
+unsigned int A,B,R;
 //
 A = 60;
 B = 13;
