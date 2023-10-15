@@ -7,7 +7,7 @@ int main ()
     //Declare variables 
 float Volume, SurfaceArea, R,pi;
  //Ask the user to input a value for r, and set a value for pi as I dont know how to use M_PI
-pi = (float)M_PI;
+  pi = (float)M_PI; 
 printf ("Please enter a value for the radius, R\n");
 
 //Use scanf to be able to let the user input a value for R
