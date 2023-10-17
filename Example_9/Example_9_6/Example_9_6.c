@@ -13,7 +13,7 @@ scanf("%d %d",&a,&b);
 for(i=a;i<=b;i++)
 {
     //Print the number, not on different lines
-    printf("%4d",i);
+    printf("%d ",i);
     //The width spacing isnt equally spacing out the numbers- the numbers with 2 characters take up more space
     //Tab will give an equal spacing but it wont be equal to 1 space (\t)
 }
