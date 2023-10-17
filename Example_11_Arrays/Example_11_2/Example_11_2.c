@@ -8,13 +8,13 @@ int main ()
    //define our i 
    int i = 0 ;
    //Now generate the for loop so that we can fill out our array- where the element will equal its position 
-   for (i = 0; i < 90; i++)
+   for (i = 0; i <= 92; i++)
    {
       array[i] = (float)i;
    }
-   for (i = 0; i < 90;+i++)
+   for (i = 0; i <= 92; i++)
    {
-      //Now we can store it 
+      //Now we print 
       printf("array[%d] = %.0f\n",i,array[i]);
    }
    return 0;
