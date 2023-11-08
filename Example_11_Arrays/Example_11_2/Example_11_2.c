@@ -6,11 +6,11 @@ int main ()
    //We start by defining our array and its size
    float array[90];
    //define our i 
-   int i <= 0 ;
+   int i  ;
    //Now generate the for loop so that we can fill out our array- where the element will equal its position 
-   for (i = 0; i== 90; i++)
+   for (i = 0; i<= 90; i++)
    {
-      array[i] = (float)i;
+      array[i] = i;
    }
    for (i = 0; i<= 90; i++)
    {

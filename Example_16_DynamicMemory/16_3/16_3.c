@@ -8,7 +8,7 @@ int main(void)
     int *pData;
 
     //User Defined Size
-    int ArrayItems, i=0;
+    int ArrayItems;
     printf("\nPlease input the number of items in the array");
     scanf("%d",&ArrayItems);
     // Using calloc (same approach malloc)
@@ -24,18 +24,21 @@ int main(void)
      // We have our  memory, make use of it here!
   
    //Now generate the for loop so that we can fill out our array- where the element will equal its position 
-   for (i = 0; i <= ArrayItems; i++)
+   int i  ;
+   //Now generate the for loop so that we can fill out our array- where the element will equal its position 
+   for (i = 0; i<=ArrayItems; i++)
    {
-      pData[i] = &i ;
+      pData[i] = i;
+      printf("\npData[%d] = %d\n",i,pData[i]);
    }
-   for (i = 0; i<= ArrayItems; i++)
+   /*for (i = 0; i<= ArrayItems; i++)
    {
-      //Now we print 
-      printf("pData[%d] = %d\n",i,*pData);
-   }
- 
+      Now we print 
+      //printf("\npData[%d] = %d\n",i,pData[i]);
+   }*/
+
     // Free up the allocated memoey
     free (pData);
-
+//ok
     return 0;   // Exit sucesfully
 }
