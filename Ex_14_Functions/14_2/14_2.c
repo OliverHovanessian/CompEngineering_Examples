@@ -14,9 +14,9 @@ double DegreesToRadiansToSineCosineTangent(double deg , double (*rad) , double (
 
 int main (void)
 {
-    double Degrees, Radians , Sine, Cosine, Tangent , retval;
+    double Degrees, Radians , Sine, Cosine, Tangent ;
     printf("Please input a value for the degrees 0-360");
     scanf("%lf",&Degrees);
-    retval= DegreesToRadiansToSineCosineTangent(Degrees,&Radians,&Sine,&Cosine,&Tangent);
+    DegreesToRadiansToSineCosineTangent(Degrees,&Radians,&Sine,&Cosine,&Tangent);
     printf("For %lf degrees:\nRadians=%lf; Sine=%lf; Cosine=%lf; Tangent=%lf",Degrees,Radians,Sine,Cosine,Tangent);
 }

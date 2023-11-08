@@ -34,9 +34,14 @@ if (retval == -1)
 {
     printf("\nError, please give both x and y non-zero values");
 }
-//Now we want to use the function to get our values for R and Theta 
-else
+
+else 
 {
     printf("\nThe value for R=%f and the value for Theta=%f",r,theta);
 }
+return (0); 
 }
+
+// Could i do the print within the function instead of the main code
+//If i were to try this then i would only need to pass over x and y and not declare the variables in the main function
+//Therefore in the function I wouldnt have enough arguments in the function
